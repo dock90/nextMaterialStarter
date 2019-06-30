@@ -1,0 +1,20 @@
+# general ignores
+*~
+*.swp
+tmp/
+.DS_Store
+.env
+.vscode/
+
+# js ignores
+npm-debug.log
+node_modules/
+.coverage
+
+# nextjs specific
+.build/*
+.next
+out
+
+# wordpress specific
+config.codekit3
