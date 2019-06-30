@@ -10,7 +10,8 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "dev": "next"
+    "dev": "next",
+    "export": "next build && next export"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
